@@ -1,0 +1,35 @@
+{
+  "author": "dev.dungnt",
+  "name": "named-router-url-generator",
+  "description": "Addition named router. URL generator for express route, template engine and javascript ",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "dev.dungnt",
+      "email": "dev.dungnt@gmail.com"
+    }
+  ],
+  "keywords": [
+    "express router",
+    "named router",
+    "url generator",
+    "url for javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiendunghaui/named-router-url-generator"
+  },
+  "bin": {
+  },
+  "dependencies": {
+    "methods": "^1.1.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
