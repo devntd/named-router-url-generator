@@ -13,8 +13,6 @@ var proto = module.exports = function (express, options) {
     router.domain = ((options || {}).domain || '').replace(/\/*$/, '');
     router.groups = [];
     router.expressRouter = express.Router(options || {});
-    //console.log(routeCollection);
-    console.log(allRoutes);
     return router;
 };
 

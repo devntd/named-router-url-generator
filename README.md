@@ -17,7 +17,7 @@ If you're looking for **Expressjs Named Router** and **URL Generator**, here's y
 
 ## Installation
 ```
-npm install express-named-router-url-generator --save
+npm install named-router-url-generator --save
 ```
 
 ## Requirements
@@ -44,7 +44,7 @@ Just need to change 2 lines to use this module.
 
 ```javascript
 var express = require('express');
-var router = require('express-named-router-url-generator')(express); // you need to change this line (1)
+var router = require('named-router-url-generator')(express); // you need to change this line (1)
 // var router = require('express-named-router-url-generator')(express[, options]); // with options
 
 // router.get() or any methods that express router supports
@@ -172,9 +172,3 @@ router.group('/group1', function() {
     });
 });
 ```
-
-### Change logs
-#### version 1.0.8 - 2016/01/05
-* Fixed compile pattern
-* Support node 0.12.x
-* Added more pre-rules
