@@ -2,7 +2,7 @@
   "author": "dev.dungnt",
   "name": "named-router-url-generator",
   "description": "Addition named router. URL generator for express route, template engine and javascript ",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "repository": {
     "url": ""
   },
